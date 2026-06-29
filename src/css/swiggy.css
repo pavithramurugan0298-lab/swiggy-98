@@ -1,0 +1,26 @@
+
+.left{
+    display: flex;
+    gap: 15px;
+}
+.right{
+    align-items: center;
+    padding-left: 620px;
+    display: flex;
+    gap: 20px;
+}
+.location>span{
+    color: orange;
+    font-size: 20px;
+}
+.image-row{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center; 
+}
+.image-row img{
+    width: 150px;
+    height: auto;
+}
